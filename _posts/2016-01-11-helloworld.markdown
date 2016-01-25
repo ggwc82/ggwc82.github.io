@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Hello, world!"
-date:   2016-01-11 18:07:53 +0000 
+date:   2016-01-11 18:07:53
 categories: first blog post
+tags: [makers]
 ---
 {% highlight ruby %}
 def hello

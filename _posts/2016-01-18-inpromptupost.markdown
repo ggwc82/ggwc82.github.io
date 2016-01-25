@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  An impromptu post
-date:   2016-01-19 20:35:43 +0000 
+date:   2016-01-19 20:35:43
 categories: makers academy
+tags: [makers]
 ---
 
 Day 2 is over and I just felt the urge to blog, so rather than just think about blogging like I've always done before, I just opened Sublime and here we are.

@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  Thoughts on completing Makers Academy Precourse
-date:   2016-01-17 16:15:24 +0000 
+date:   2016-01-17 16:15:24
 categories: makers precourse
+tags: [makers]
 ---
 
 It's Sunday afternoon right now, and the Weekend challenge set by Nikesh is just to...

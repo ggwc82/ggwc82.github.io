@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  Recap of Precourse Weeks 1 & 2
-date:   2016-01-17 21:30:48 +0000 
+date:   2016-01-17 21:30:48
 categories: makers precourse
+tags: [makers]
 ---
 
 Week 1 - Introduction to the command line and Git. I've previously encountered the Unix command line on a Solaris course I'd taken many moons ago, and also having experienced the pains of DOS 6.2 in my youth, I didn't have much problems with the course material. Although one particular difficult topic did manage to show itself - regular expressions or regex. It's not the most intuitive or straighforward methods of parsing text, but I do know once mastered, it can be very powerful. Either way it cannot be avoided, so I'd better put aside some time to practice messing about with it.

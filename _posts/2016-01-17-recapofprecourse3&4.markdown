@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  Recap of Precourse Weeks 3 & 4
-date:   2016-01-17 21:50:29 +0000 
+date:   2016-01-17 21:50:29
 categories: makers precourse
+tags: [makers]
 ---
 
 After a considerably long two week break over Christmas and New Year, I was eagerly waiting for Week 3 to start. So much so, when the e-mail from Nikesh dropped in my inbox around 1pm on the Monday, I got cracking right away. The week's challenge was to complete Chris Pine's Learn To Program Tutorial, chapters 9 to 14 along with the exercises. Although I had already covered chapters 1-8 in preparation for my interview way back in October, I did some additional study over the Christmas break which involved repeating Pine's tutorial and the Codecademy Ruby course. 

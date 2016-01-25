@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  Makers Academy - Week 1 Recap
-date:   2016-01-24 22:39:59 +0000
+date:   2016-01-24 22:39:59
 categories: makers academy
+tags: [makers]
 ---
 
 Wow, week 1 went by incredibly fast. You know what they say when you don't notice the passage of time, particularly when you're completely engrossed in what you're doing. Thats what every day has been like when I'm coding - just yesterday I started the Friday challenge around 5pm and then realised it was 2am when I'd almost completed it. 
