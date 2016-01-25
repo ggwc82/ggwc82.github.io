@@ -1,0 +1,28 @@
+---
+layout: post
+title:  Makers Academy - Week 1 Recap
+date:   2016-01-24 22:39:59 +0000
+categories: makers academy
+---
+
+Wow, week 1 went by incredibly fast. You know what they say when you don't notice the passage of time, particularly when you're completely engrossed in what you're doing. Thats what every day has been like when I'm coding - just yesterday I started the Friday challenge around 5pm and then realised it was 2am when I'd almost completed it. 
+
+The last time I honestly felt this way about coding was when I was participating in MIT's 6.00.1x Python course. However this time around it's much more immersive, especially when you're pair programming with a different Roniner everyday. I found the pairing experience to be an emotional rollercoaster last week, having experienced both situations where I've been slightly ahead and behind of my partner, and having to speed up and slow down in either case.
+
+Whilst I had few issues playing catch up, I found the slowing down experience more challenging, to the point where I felt like I was effectively was guiding the discussion. Being able to absorb and understand the concepts we've covered in the previous week is difficult enough, but having to explain these very same concepts to our fellow peers using correct terminology and in a succinct way takes it to another level. Oftentimes I ended up confusing not just myself, but also my partner, which was a low point for me. Fortunately that day, things got a lot better after the lunch break, but by the end of the day my brain was overloaded.
+
+So this is a key area that I've decided to focus on improving during my time at Makers. I want to be able to express myself clearly and concisely when talking about technical concepts, because this is what I'll be expected to do in job interviews and beyond. I guess I have a lot to work on then!
+
+So I've written this much but haven't exactly mentioned what we learned our first week as Ronin students. TDD, TDD and yet more TDD (thats Test Driven Development). This has been our focus all week, when we were tasked to build a simple Boris Bikes implementation. Starting from User Stories, we created Domain Models to describe the interactions between our defined objects and interfaces.
+
+With these models, we proceeded to use IRB or Pry to 'spike' our Feature Tests, in order to meet the requirements of each User Story. Implementing the Feature Tests involved writing individual Unit Tests in RSpec which would immediately fail. Using the Red-Green-Refactor (RGR) method, we would then proceed to write the simplest code in our classes to pass each unit test and then refactor if possible, repeating this RGR process until our code provided the functionality requested in each User Story. All the while we were trying to follow the Pong Pair Programming process, taking it in turns to navigate and drive, with regular Git pushes and pulls in order to ensure that our individual repositories stayed up-to-date.
+
+Towards the end of the week, we encountered more new concepts - Test Doubles, Mocks and Stubs in our Boris Bikes challenge. Whilst I must admit I didn't quite understand them at the time, it was only after implementing them in the Friday challenge that I realised and understood their utility. Their usefulness is to keep things simple and in my own words 'untangled' - we want to create models of systems in the most basic way possible, and clearly define our methods and classes to do only one thing - this approach is known as the Single Responsibility Principle (SRP).
+
+In the example above, we used Doubles to act as stand-in test objects and provide them with fake methods (Mocks) when the Unit Tests we are writing would otherwise require 'dependency on additional classes' (see what I did there?). Why would we want this though? The answer is simple - we can effectively eliminate unexpected failures or errors in our Unit Tests that would otherwise result from incorrectly written code bubbling up. I'm not sure if I've used the 'bubbling' terminology in the correct form, but hey, I'm still learning.
+
+As developers we want to aspire to writing code in a way that provides ample scope for future developers to modify or increase functionality with the minimum amount of downtime and development time/cost. All of what we've learned in week 1 at Makers, and what we will be learning in the next 11 weeks follow Extreme Programming practices, with Agile being the overall encompassing principle methodology.
+
+This time last week, if someone had asked me to produce a simplified Boris Bikes system using TDD, I wouldn't know how or where to start. Not only can I now do this, I actually did it in the Friday Challenge. I'm simply amazed at how much one can learn if provided with the ideal learning environment and support structures.
+
+They say there are times in your life where you have to make major decisions, and when you do you get this gut feeling that tells you should disregard all your fears, just commit and 'go all in'. Put it all out there, for all to see. This is exactly how I feel right now writing this, and it's what I intend to do for my Makers Academy experience, whether its via vlog, this blog or in the Slack channel to my peers. Go all in.
