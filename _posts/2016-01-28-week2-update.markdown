@@ -14,7 +14,7 @@ This morning I volunteered to lead the daily stand ups, where we each take turns
 3. Do you currently have any blockers?
 ```
 
-Just yesterday we starting to transition to self manageming our own stand-ups, where previously our coach Sam had taken the lead. I found the experience to be refreshing, allowing me the opportunity to add some advice of my own, especially after listening to my peers voice their concerns as blockers.
+Just yesterday we starting to transition to self managing our own stand-ups, where previously our coach Sam had taken the lead. I found the experience to be refreshing, allowing me the opportunity to add some advice of my own, especially after listening to my peers voice their concerns as blockers.
 
 It seems that we're all suffering from fatigue and sleep deprivation. We were given plenty of advanced warning that Makers would push our minds and bodies to their limits - well, they certainly weren't kidding. Our cohort is so big that I still haven't paired with half my peers yet, and we're rapidly approaching the end of week 2.
 
