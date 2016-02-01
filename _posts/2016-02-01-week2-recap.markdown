@@ -1,0 +1,25 @@
+---
+layout: post
+title:  Ronin Week 2 Recap, Intro to Week 3
+date:   2016-02-01 21:21:41
+categories: makers blog ronin
+tags: [makers]
+---
+
+Ideally I'd like to write these recap posts on a Sunday evening, not just to reflect on what I've learned and struggled with, but also to round out the week. However, things don't always work out they way we intend so I'll just go with the flow and blog whenever I can.
+
+Monday, week 2 started with a code review of the previous week's Friday challenge, which we undertook in pairs (pretty much everything we do on the Ronin course, except for the Friday challenge itself is done in pairs). I didn't really know what to expect prior to doing it, but after completing the session I realised how essential code reviews are.
+
+As I explained in my vlog, the number of insights and 'aha' moments gained during a code review, seeing the similarities and differences in the way your pair interpreted and implemented the user stories was immensely beneficial to our own understanding. Furthermore, we were encouraged to watch an exemplar video recorded by our coach (clocking in at 2 hours 21 minutes) of his method of implementing each feature. Going through the video at x1.25 - x1.5 speed (rewinding and slowing down to take notes) I think it took me over 5 hours in split sessions to get through. Future Roniner's can see my YouTube comment on the video - hey, I invested all that time to watch it thoroughly so why not acknowledge my efforts, and stamp my approval. Been there, seen that.
+
+Moving on, week 2 was all about SOLID - the first two being the main focus - Single Responsibility Principle (covered extensively in week 1) and the Open/Closed Principle. The latter describes how functions and classes in OOP should be designed in a way to be open for extension of behaviour, but closed for modification. In simple terms this means we'd give preference to create more classes rather than constantly modifying our existing classes. 
+
+As per the Maker's way, we got to scratch our heads in frustration as we found that out the hard way in week 2's OysterCard challenge. In contrast to the previous week, where we started with seperate defined classes, we were guided down a path which resulted in our OysterCard class holding most of the functions...
+
+Much to our dismay, we were then told to extract the methods relating to a journey into a Journey class! This was a real PITA, because not only did we have to correctly replicate the functionality but we had to do it in a TDD way - unit tests with doubles and stubbed methods in an accompanying spec file. So many times my various partners and I got so confused with similar naming conventions between the classes and RSpec tests failing all over the place. So it wasn't a suprise when extracting classes was the most difficult topic that was upvoted in our Retro session on Friday. The fact that so many of my peers felt exactly the same as I did not only gave me reassurance that I wasn't alone - quite the opposite, we are all in the same boat.
+
+Other topics we covered in week 2, I can only briefly mention (because I really need to get on with my evening study) include class inheritance, structs and openstructs, the concept of duck type languages like Ruby and the Law of Demeter. We've been given so many new concepts to learn, but it's a good thing in that we've already been practicing them throughout the challenges, whether they've been explicitly described or not.
+
+Since we're already 1 day into week 3, I'll briefly mention that we started week 3 today, and the focus this week is on the web. Whilst I was thinking Rails - perhaps that's a leap too far - we got started with Sinatra, a much simpler framework. Code review this morning again was very productive with my pair, we had identified that he didn't isolate his unit test for his main class, using real objects instead of doubles.
+
+Fortunately, this turned out be quite a revelation - since he'd already written all the unit tests, by simply creating doubles in the _spec.rb file, they would take priority over his injected object instances (set as default values). With all the tests in place, it was just a case of stubbing out all the method calls incrementally, each time the error message changing and effectively telling us what behaviour to mock next, until we were complete and the unit test going green. It felt strangely rewarding, almost as if we'd somehow managed to create our own unique set of challenges to solve!

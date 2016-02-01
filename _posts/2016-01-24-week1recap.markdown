@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Makers Academy - Week 1 Recap
+title:  Ronin Week 1 Recap
 date:   2016-01-24 22:39:59
-categories: makers academy
+categories: makers academy ronin
 tags: [makers]
 ---
 
