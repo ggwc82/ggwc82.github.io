@@ -1,0 +1,44 @@
+---
+layout: post
+title:  Ronin Week 3 Recap 
+date:   2016-02-07 21:48:29
+categories: makers blog ronin
+tags: [makers]
+---
+
+Realisation only kicked in during Friday afternoon's Retro session at how fast the week flew by. It felt like only the day before where I was discussing the previous week's topics to a bunch of my peers whilst filling out the feedback forms, which we get to do in small breakout sessions. The days are literally merging into each other - we are coding every single day, and when we're not coding we're thinking about coding.
+
+Aside from coding, I think this week marks a significant shift in my mindset, a fact that suddenly dawned upon me this morning whilst recording my weekly vlog, that I was actually enjoying the experience. No, it's not my mind playing tricks on me. If Jordan at Makers would have even suggested that I might like recording them, seriously, I would have laughed right back at him. Right now though I'm feeling rather fortunate to have this opportunity to express my thoughts on the course through another medium, in addition to what I write in this blog. Thank you so much Jordan.
+
+Ok, so now onto my recap of Week 3 of the Makers Academy Ronin course. This week's theme was all about the Web. We had several workshops focusing on the client-server relationship, on http requests and responses, in particular focusing on GET and POST requests that our browsers (the client) send to the various Web applications sitting on a server somewhere. This week was a nice change of scenery compared to the previous two weeks of Ruby. Rather than being heavy on theory, we were given quite a high-level overview of the Web, enough for us to gain a working knowledge and get hands on with some new technologies - Sinatra, a Model, View, Controller (MVC) framework for building Web applications and also Capybara, a TDD tool giving RSpec the functionality to test our code from the client side, looking into our Web application from a browser's viewpoint - the Capybara commands are just plain English, allowing non-coders to follow whats happening:
+
+{% highlight ruby %}
+def sign_in_and_play
+  visit('/')
+  fill_in :player_1_name, with: 'Rebecca'
+  fill_in :player_2_name, with: 'Valentina'
+  click_button 'Submit'
+end
+{% endhighlight %}
+
+In my previous blogpost, I talked about integrating the Selenium webdriver into our tests to allow us to watch our tests running live in the browser, a method which I've been utilizing throughout the week. Armed with a self-improved toolset, I managed to come across a quite troubling situation yesterday, which caused me to severly doubt myself and the tests that I had written in the Friday challenge. What was happening was that my RSpec tests were all passing green in the command line, but when I ran the exact same tests with the Selenium webdriver enabled to my suprise, most of my tests ended up failing!?
+
+So did I mess up somewhere? Did I incorrectly setup my MVC framework? Are my tests faulty or inadequate in someway? All these questions were running through my head, and panic was setting in when not one of my peers on the January cohort had mentioned anything about this peculiar 'bug' in RSpec in the Slack channel. Was I seriously the only one to come across this unfortunate problem? Not content with keeping this troubling discovery to myself, I put the question out there to my cohort, preparing myself to be told that I've simply neglected to do XYZ etc.
+
+Well, it was to my great relief (and to my confidence) when Ptolemy, a coach at Makers, responded to my query advising that it's a known issue and has previously been reported to RSpec, but it was still causing them ongoing issues, especially with writing the Friday challenge for us. The takeaway point from this experience is to never have complete faith even in the tools you're relying on, because being software they are also susceptible to errors. Also, I should not be so quick to doubt myself without first raising the issue in Slack, Slack or Stack Overflow!
+
+With that said, my ego had already taken a severe bashing on Friday when I was pulled into an unplanned Zoom session with Sam and a few of my peers. What was originally intended to be a straighforward (and short) error fixing session, it got increasingly frustating as Sam suffered from internet problems and was forced to resort to typing out his thoughts and responses whilst we were failing in our attempts to follow an error stack trace.
+
+Only the previous evening, I had helped two of my peers resolve an error which they'd been stuck on for the better part of a day. Straight after this zoom session, I mentioned at how bad I felt immediately afterwards. Partly due to a failure on my part to follow simple instructions, but also because I was forced to admit to myself that I 'lucked out' with solving my peers' issue - rather than following the stack trace (which Sam told us to do) I had just visually compared their code with my own, and spotted the errors that way. Despite the praise I received at the time, I realise now this is not the optimal way and I was fortunate to have similar code to make the comparison. So yea, I 'lucked out'.
+
+With my ego bruised and the Zoom session lasting longer than I anticipated, I reached out to my partner for the day, apologising for the unexpected hold-up. So imagine what I felt when she (having pretty much completed all the exercises at this point) took a look at my code and told me that I had just hard-coded the results in the views to pass the tests, but not actually written the underlying methods to produce those results...sigh...
+
+![](http://memesvault.com/wp-content/uploads/Feels-Bad-Man-Frog-05.jpg)
+
+Not being one for memes, I'll allow for this one above since it most accurately reflects how I was feeling that Friday morning. However, I'm not one to give up, I had a lot of problems to fix with my code and we promptly got down to work. It was the first real time that I'd experienced being quite far behind my partner (speaking in terms of challenge progress) and having to play catch up, but as I explained to her I thought I was fortunate to be given a chance to fix my errors, whereas perhaps with a different pairing we wouldn't have identified the inconsistencies in my thought process and implementation. With that said, it didn't take us long to make some real progress and I felt much better as we wrapped up for our lunch break.
+
+That Friday was the most challenging day I've had to endure so far in course. So instead of starting the Friday challenge that evening as I originally planned, I took the evening off to spend time with my family. After putting my ten month old daughter to sleep, I tuned into twitch to watch Fnatic in their League of Legends (LoL) match. Besides creating the Battle game during the week (its debatable whether to even call that a *game*, having no playability at all by Friday) and also the Friday challenge, I rarely have the time these days to play games, so my only option is to watch them.
+
+The reason why I'm following team Fnatic is because my former poker coach and friend Deilor, is now the head coach for their e-Sports team. It's always so much more engaging when you have a very good reason to rail a team. Anyway, the reason why I mention this is not just to say that its sometimes good to take breaks away from coding, but because upon reflection, Fnatic's match played out in a very similar way to what I'd experienced earlier in the day. 
+
+Fnatic started really bad against a team which they were favourites to win against, they made mistakes early on and were almost beaten at several points throughout the mid-game stage, but they never gave up and realised that with their picks, their strengths lay in the end-game. Thus it was at a crucial point in the end-game that Fnatic turned it around, and made an epic comeback for the win! What an amazing match that was, by far the most enthralling LoL match I've ever watched, I thoroughly recommend watching a replay if you're into these kind of things - Google Fnatic vs Roccat, EU LCS - 5th Feb 2016.
