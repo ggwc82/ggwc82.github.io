@@ -1,0 +1,38 @@
+---
+layout: post
+title: CRUD - Create, Read, Update & Delete 
+date: 2016-02-09 22:31:44
+categories: makers blog ronin
+tags: [makers]
+---
+A blogpost by ggwc82 and BjoernWagner 
+
+What is CRUD? It stands for Create, Read, Update and Delete - four basic functions of persistent storage, for example in databases, forms and reports.
+
+SQL stands for Structured Query Language and is a special purpose programming language for managing data held a RDBMS.
+
+
+SQL examples for each CRUD action
+---------------------------------
+
+Create:
+```
+"INSERT INTO Users (username, password, fullname, email) VALUES (?, ?, ?, ?
+)";   
+```
+
+Read:
+```
+"SELECT * FROM Users";
+```
+
+Update:
+```
+"UPDATE Users SET password=?, fullname=?, email=? WHERE username=?";
+```
+
+Delete:
+```
+"DELETE FROM Users WHERE username=?";
+```
+
