@@ -1,16 +1,16 @@
 ---
 layout: post
-title: VIM Challenge, accepted! 
+title: Vim Challenge, accepted! 
 date: 2016-02-10 21:00
 categories: makers blog ronin vim
 tags: [vim challenge]
 ---
 
 So a bunch of us from the Ronin cohort were talking about learning VIM over the
-past week. So we decided to create VIM Club. There was already a Slack channel
-named 'vimming' created by the supreme being known as Nikesh (where's my stickers dude?) so like an invading horde we stormed that channel and made it our own.
+past week. So we decided to create Vim Club. There was already a Slack channel
+named 'Vimming' created by the supreme being known as Nikesh (where's my stickers dude?) so like an invading horde we stormed that channel and made it our own.
 
-We've all heard about how steep the learning curve is for VIM, however whats harder - learning Ruby, Rails, JavaScript, TDD etc. in 12 weeks or learning one tool created way back in the 90s. I figured I'm in the optimal environment and surrounded by similarly motivated people to make sure I succeed at this. And succeed I will, because I deleted my Sublime Text 2 last night. That's how committed I am. There is no going back. 
+We've all heard about how steep the learning curve is for Vim, however whats harder - learning Ruby, Rails, JavaScript, TDD etc. in 12 weeks or learning one tool created way back in the 90s. I figured I'm in the optimal environment and surrounded by similarly motivated people to make sure I succeed at this. And succeed I will, because I deleted my Sublime Text 2 last night. That's how committed I am. There is no going back. 
 
 ![my collection of mice](/images/mice.jpg)
 
@@ -39,5 +39,5 @@ couple of weeks getting used to Sublime Text 2, but I'm by no means an expert at
 it. Better to leave it now before I get too familiar, too 'good' at using it
 that the move away would be significantly harder. And it will only get tougher if I
 don't make the move now. So there it is, my reasoning for why I made the move to
-VIM. Also, the bragging rights of being a quintessential 'keyboard warrior'
+Vim. Also, the bragging rights of being a quintessential 'keyboard warrior'
 might even make up for losing my 'SNE' status at PokerStars...maybe...
