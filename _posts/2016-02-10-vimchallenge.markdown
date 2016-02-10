@@ -6,7 +6,7 @@ categories: makers blog ronin vim
 tags: [vim challenge]
 ---
 
-So a bunch of us from the Ronin cohort were talking about learning VIM over the
+So a bunch of us from the Ronin cohort were talking about learning Vim over the
 past week. So we decided to create Vim Club. There was already a Slack channel
 named 'Vimming' created by the supreme being known as Nikesh (where's my stickers dude?) so like an invading horde we stormed that channel and made it our own.
 
