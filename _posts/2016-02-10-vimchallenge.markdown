@@ -26,7 +26,7 @@ that there is never enough time - and its so precious. Very very precious, like 
 gleaming red gem.
 
 When I first started playing poker, I couldn't 24 table right away. I had to
-work at it, even 4 tabling was difficult for me in the start. But that didn't
+work at it, even 4 tabling was difficult for me in the beginning. But that didn't
 discourage me. I worked at it. I got better, day by day. I researched into how
 to optimize my setup, with additional software like Hold'em Manager and Table
 Ninja for hotkeys and managing the position of poker tables on my screens.
